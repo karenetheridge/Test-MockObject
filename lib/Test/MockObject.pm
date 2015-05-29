@@ -495,9 +495,9 @@ module, consider L<Test::MockObject::Extends> instead.
 =item * If the code under testing produces strange errors about type checks,
 pass the C<-debug> flag when using C<Test::MockObject> or
 C<Test::MockObject::Extends>. This will load both L<UNIVERSAL::isa> and
-L<UNIVERSAL::can> to perform additional debugging on the incorrect use of both
+L<UNIVERSAL::can> to perform additional debugging on the use of both
 methods from the L<UNIVERSAL> package. (This behavior used to be active by
-default, but that was, however correct, probably a burden to onerous for the
+default, but that was, however correct, probably a burden too onerous for the
 CPAN.)
 
 =back
